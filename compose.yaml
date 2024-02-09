@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   todo-app:
-    build: .
+    image: eldrian/todoapp:1.0
     container_name: todoapp
     links:
       - todo-database
